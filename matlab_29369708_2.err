@@ -1,0 +1,67 @@
+{Error using parpool (line 113)
+Parallel pool failed to start with the following error. For more detailed
+information, validate the profile 'local' in the Cluster Profile Manager.
+
+Error in Main_test (line 8)
+    parpool(Corenum);%36
+
+Caused by:
+    Error using parallel.internal.pool.InteractiveClient>iThrowWithCause (line
+    668)
+    Failed to start pool.
+        Error using parallel.internal.cluster.CJSSupport/buildJob (line 142)
+        An unexpected error occurred accessing properties: "Name" "Version"
+        "CreateDateTime" "MinNumWorkers" "MaxNumWorkers"
+            Error using save
+            Unable to write to MAT-file
+            /home/zhang2/.matlab/local_cluster_jobs/R2019b/Job3.in.mat.
+            The file may be corrupt.
+} 
+{Error using parpool (line 113)
+Parallel pool failed to start with the following error. For more detailed
+information, validate the profile 'local' in the Cluster Profile Manager.
+
+Error in Main_test (line 8)
+    parpool(Corenum);%36
+
+Caused by:
+    Error using parallel.internal.pool.InteractiveClient>iThrowWithCause (line
+    668)
+    Failed to start pool.
+        Error using save
+        Unable to write to MAT-file
+        /home/zhang2/.matlab/local_cluster_jobs/R2019b/Job3.in.mat.
+        The file may be corrupt.
+} 
+{Error using parpool (line 113)
+Parallel pool failed to start with the following error. For more detailed
+information, validate the profile 'local' in the Cluster Profile Manager.
+
+Error in Main_test (line 8)
+    parpool(Corenum);%36
+
+Caused by:
+    Error using parallel.internal.pool.InteractiveClient>iThrowWithCause (line
+    668)
+    Failed to start pool.
+        Error using parallel.Job/createTask (line 324)
+        Only one task may be created on a concurrent Job.
+} 
+{Error using parpool (line 113)
+Parallel pool failed to start with the following error. For more detailed
+information, validate the profile 'local' in the Cluster Profile Manager.
+
+Error in Main_test (line 8)
+    parpool(Corenum);%36
+
+Caused by:
+    Error using parallel.internal.pool.InteractiveClient>iThrowWithCause (line
+    668)
+    Failed to start pool.
+        Error using parallel.Job/preSubmit (line 596)
+        Could not open file
+        "/home/zhang2/.matlab/local_cluster_jobs/R2019b/Job3.in.mat", the error
+        returned was: Unable to read MAT-file
+        /home/zhang2/.matlab/local_cluster_jobs/R2019b/Job3.in.mat. File might
+        be corrupt..
+} 

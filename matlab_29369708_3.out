@@ -1,0 +1,171 @@
+STARTING AT Wed Dec 18 12:32:34 PM CET 2024
+
+                            < M A T L A B (R) >
+                  Copyright 1984-2019 The MathWorks, Inc.
+                  R2019b (9.7.0.1190202) 64-bit (glnxa64)
+                              August 21, 2019
+
+
+                            < M A T L A B (R) >
+                  Copyright 1984-2019 The MathWorks, Inc.
+                  R2019b (9.7.0.1190202) 64-bit (glnxa64)
+                              August 21, 2019
+
+
+                            < M A T L A B (R) >
+                  Copyright 1984-2019 The MathWorks, Inc.
+                  R2019b (9.7.0.1190202) 64-bit (glnxa64)
+                              August 21, 2019
+
+
+                            < M A T L A B (R) >
+                  Copyright 1984-2019 The MathWorks, Inc.
+                  R2019b (9.7.0.1190202) 64-bit (glnxa64)
+                              August 21, 2019
+
+ 
+ 
+ 
+ 
+To get started, type doc.
+For product information, visit www.mathworks.com.
+To get started, type doc.
+To get started, type doc.
+For product information, visit www.mathworks.com.
+To get started, type doc.
+For product information, visit www.mathworks.com.
+For product information, visit www.mathworks.com.
+ 
+ 
+ 
+ 
+Starting parallel pool (parpool) using the 'local' profile ...
+Starting parallel pool (parpool) using the 'local' profile ...
+Starting parallel pool (parpool) using the 'local' profile ...
+Starting parallel pool (parpool) using the 'local' profile ...
+
+[Warning: Variable 'createdatetime' was not saved. For variable of type
+'datetime' use MAT-file version 6 or later.] 
+[> In parallel.internal.types.FileFormat>iSaveMat (line 98)
+  In parallel.internal.types/FileFormat/save (line 33)
+  In parallel.internal.cluster/FileStorage/setFields (line 735)
+  In parallel.internal.cluster/CJSSupport/buildJob (line 139)
+  In parallel.cluster/CJSCluster/buildConcurrentJob (line 556)
+  In parallel/Cluster/createConcurrentJob (line 1143)
+  In parallel.internal.pool.InteractiveClient>iCreateCommunicatingJob (line 735)
+  In parallel.internal.pool/InteractiveClient/start (line 325)
+  In parallel.Pool>iStartClient (line 796)
+  In parallel/Pool/hBuildPool (line 585)
+  In parallel.internal.pool.doParpool (line 18)
+  In parpool (line 98)
+  In Main_test (line 8)] 
+[Warning: Variable 'autoaddclientpath' was not saved. For variable of type
+'logical' use MAT-file version 6 or later.] 
+[> In parallel.internal.types.FileFormat>iSaveMat (line 98)
+  In parallel.internal.types/FileFormat/save (line 33)
+  In parallel.internal.cluster/FileStorage/setFields (line 735)
+  In parallel.internal.cluster/CJSSupport/setProperties (line 251)
+  In parallel.internal.cluster/CJSSupport/setJobProperties (line 442)
+  In parallel.internal.cluster/CJSJobMixin/hSetPropertyNoCheck (line 114)
+  In parallel/Job/hSetProperty (line 645)
+  In parallel.internal.customattr/GetSetImpl/setMultipleProperties (line 22)
+  In parallel.internal.customattr/GetSetImpl/setImpl (line 251)
+  In parallel.internal.customattr/CustomGetSet/hSetAllowNonPublic (line 85)
+  In parallel/Cluster/applyJobProperties (line 378)
+  In parallel/Cluster/createConcurrentJob (line 1144)
+  In parallel.internal.pool.InteractiveClient>iCreateCommunicatingJob (line 735)
+  In parallel.internal.pool/InteractiveClient/start (line 325)
+  In parallel.Pool>iStartClient (line 796)
+  In parallel/Pool/hBuildPool (line 585)
+  In parallel.internal.pool.doParpool (line 18)
+  In parpool (line 98)
+  In Main_test (line 8)] 
+[Warning: Variable 'autoaddclientpath' was not saved. For variable of type
+'logical' use MAT-file version 6 or later.] 
+[> In parallel.internal.types.FileFormat>iSaveMat (line 98)
+  In parallel.internal.types/FileFormat/save (line 33)
+  In parallel.internal.cluster/FileStorage/setFields (line 735)
+  In parallel.internal.cluster/CJSSupport/setProperties (line 251)
+  In parallel.internal.cluster/CJSSupport/setJobProperties (line 442)
+  In parallel.internal.cluster/CJSJobMixin/hSetPropertyNoCheck (line 114)
+  In parallel/Job/hSetProperty (line 645)
+  In parallel.internal.customattr/GetSetImpl/setMultipleProperties (line 22)
+  In parallel.internal.customattr/GetSetImpl/setImpl (line 251)
+  In parallel.internal.customattr/CustomGetSet/hSetAllowNonPublic (line 85)
+  In parallel/Cluster/applyJobProperties (line 378)
+  In parallel/Cluster/createConcurrentJob (line 1144)
+  In parallel.internal.pool.InteractiveClient>iCreateCommunicatingJob (line 735)
+  In parallel.internal.pool/InteractiveClient/start (line 325)
+  In parallel.Pool>iStartClient (line 796)
+  In parallel/Pool/hBuildPool (line 585)
+  In parallel.internal.pool.doParpool (line 18)
+  In parpool (line 98)
+  In Main_test (line 8)] 
+[Warning: Variable 'createdatetime' was not saved. For variable of type
+'datetime' use MAT-file version 6 or later.] 
+[> In parallel.internal.types.FileFormat>iSaveMat (line 98)
+  In parallel.internal.types/FileFormat/save (line 33)
+  In parallel.internal.cluster/FileStorage/setFields (line 735)
+  In parallel.internal.cluster/CJSSupport/buildJob (line 139)
+  In parallel.cluster/CJSCluster/buildConcurrentJob (line 556)
+  In parallel/Cluster/createConcurrentJob (line 1143)
+  In parallel.internal.pool.InteractiveClient>iCreateCommunicatingJob (line 735)
+  In parallel.internal.pool/InteractiveClient/start (line 325)
+  In parallel.Pool>iStartClient (line 796)
+  In parallel/Pool/hBuildPool (line 585)
+  In parallel.internal.pool.doParpool (line 18)
+  In parpool (line 98)
+  In Main_test (line 8)] 
+
+[Warning: The cluster failed to cancel the job execution. The error was: Could
+not open file "/home/zhang2/.matlab/local_cluster_jobs/R2019b/Job3.in.mat", the
+error returned was: Unable to read MAT-file
+/home/zhang2/.matlab/local_cluster_jobs/R2019b/Job3.in.mat. File might be
+corrupt..] 
+[> In parallel.internal.cluster/CJSJobMethods/cancelOneJob (line 53)
+  In parallel.job.CJSConcurrentJob>@(job,ce)CJSJobMethods.cancelOneJob(job.Parent,job,job.Support,ce) (line 57)
+  In parallel.job/CJSConcurrentJob/cancelJob (line 57)
+  In parallel.Job>iCancelJobs (line 1557)
+  In parallel.Job>@(jobs)iCancelJobs(jobs,exceptionBuilder) (line 1366)
+  In parallel.internal.cluster.hetfun (line 57)
+  In parallel/Job/cancel (line 1366)
+  In parallel/Cluster/hDeleteOneJob (line 1014)
+  In parallel.internal.pool.InteractiveClient>iDeleteJobs (line 860)
+  In parallel.internal.pool/InteractiveClient/pStopLabsAndDisconnect (line 585)
+  In parallel.internal.pool.InteractiveClient>iCleanupIfStartupFailed (line 934)
+  In parallel.internal.pool.InteractiveClient>@()iCleanupIfStartupFailed(obj) (line 283)
+  In onCleanup/delete (line 81)
+  In parallel.internal.pool/InteractiveClient/start (line 226)
+  In parallel.Pool>iStartClient (line 796)
+  In parallel/Pool/hBuildPool (line 585)
+  In parallel.internal.pool.doParpool (line 18)
+  In parpool (line 98)
+  In Main_test (line 8)] 
+[Warning: The cluster failed to cancel the job execution. The error was: Could
+not open file "/home/zhang2/.matlab/local_cluster_jobs/R2019b/Job3.in.mat", the
+error returned was: Unable to read MAT-file
+/home/zhang2/.matlab/local_cluster_jobs/R2019b/Job3.in.mat. File might be
+corrupt..] 
+[> In parallel.internal.cluster/CJSJobMethods/cancelOneJob (line 53)
+  In parallel.job.CJSConcurrentJob>@(job,ce)CJSJobMethods.cancelOneJob(job.Parent,job,job.Support,ce) (line 57)
+  In parallel.job/CJSConcurrentJob/cancelJob (line 57)
+  In parallel.Job>iCancelJobs (line 1557)
+  In parallel.Job>@(jobs)iCancelJobs(jobs,exceptionBuilder) (line 1366)
+  In parallel.internal.cluster.hetfun (line 57)
+  In parallel/Job/cancel (line 1366)
+  In parallel/Cluster/hDeleteOneJob (line 1014)
+  In parallel.internal.pool.InteractiveClient>iDeleteJobs (line 860)
+  In parallel.internal.pool/InteractiveClient/pStopLabsAndDisconnect (line 585)
+  In parallel.internal.pool.InteractiveClient>iCleanupIfStartupFailed (line 934)
+  In parallel.internal.pool.InteractiveClient>@()iCleanupIfStartupFailed(obj) (line 283)
+  In onCleanup/delete (line 81)
+  In parallel.internal.pool/InteractiveClient/start (line 226)
+  In parallel.Pool>iStartClient (line 796)
+  In parallel/Pool/hBuildPool (line 585)
+  In parallel.internal.pool.doParpool (line 18)
+  In parpool (line 98)
+  In Main_test (line 8)] 
+
+
+I am array task number 3
+FINISHED at Wed Dec 18 12:33:20 PM CET 2024
