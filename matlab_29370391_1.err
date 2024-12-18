@@ -1,0 +1,14 @@
+{Error using parpool (line 113)
+Parallel pool failed to start with the following error. For more detailed
+information, validate the profile 'local' in the Cluster Profile Manager.
+
+Error in Main_test (line 8)
+    parpool(Corenum);%36
+
+Caused by:
+    Error using parallel.internal.pool.InteractiveClient>iThrowWithCause (line
+    668)
+    Failed to locate and destroy old interactive jobs.
+        Error using parallel.Cluster/findJob (line 74)
+        Unknown type:
+        concurrentconcurrentconcurrentconcurrentconcurrentconcurrentconcurrentconcurrentconcurrentconcurrentconcurrentconcurrentconcurrentconcurrentconcurrent.} 
