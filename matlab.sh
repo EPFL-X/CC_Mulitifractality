@@ -1,11 +1,10 @@
 #!/bin/bash -l
-#SBATCH --chdir /home/zhang2/MF_CC_2024/Array_test/
-#SBATCH --nodes 4 
-#SBATCH --ntasks 4
+#SBATCH --array=1-7
+#SBATCH --nodes 1 
+#SBATCH --ntasks 1
 #SBATCH --cpus-per-task 72
 #SBATCH --time 72:00:00
-#SBATCH --qos=parallel
-#SBATCH --array=1-4
+#SBATCH --qos=serial
 
 #SBATCH --partition=bigmem
 #SBATCH --mail-user=ZHE.ZHANG@epfl.ch
@@ -13,13 +12,17 @@
 #SBATCH --mail-type=END
 #SBATCH --error=matlab_%A_%a.err
 #SBATCH --output=matlab_%A_%a.out
-ulimit -u 16384
+set -e
+
+ulimit -n 131072
 echo STARTING AT `date`
+echo "Slurm Job Id SLURM_ARRAY_JOB_ID is ${SLURM_ARRAY_JOB_ID}"
 
-module purge 
-module load matlab
+module purge
+module load matlab/R2024a
+module list
 
-srun matlab -nosplash -nodisplay -nodesktop -r "Main_test($SLURM_ARRAY_TASK_ID)"
+matlab -nosplash -nodisplay -nodesktop -r "Main($SLURM_ARRAY_TASK_ID)", exit
 
-echo "I am array task number" $SLURM_ARRAY_TASK_ID
+$ ln -s /scratch/zhang2/ServiceHost /home/zhang2/.MathWorks/ServiceHost
 echo FINISHED at `date`
